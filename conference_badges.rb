@@ -4,7 +4,6 @@ end
 
 def batch_badge_creator(names)
   names.collect{|name| "Hello, my name is #{name}." }
-  printer(names.collect)
 end
 
 def assign_rooms(names)
@@ -15,5 +14,4 @@ end
 
 def printer(array)
   array.each{|text| puts "#{text}"}
-  ptiner(welcome)
 end
