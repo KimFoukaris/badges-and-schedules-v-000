@@ -15,5 +15,5 @@ def assign_rooms(names)
 end
 
 def printer(array)
-  array.each{|item| puts "item"}
+  array.each{|item| puts "#{item}"}
 end
