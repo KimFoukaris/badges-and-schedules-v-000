@@ -13,7 +13,6 @@ def assign_rooms(names)
   return rooms
 end
 
-def printer
-  puts welcome
-  puts rooms
+def printer(array)
+  array.each{|text| puts "#{text}"}
 end
