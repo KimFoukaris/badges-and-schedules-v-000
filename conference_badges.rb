@@ -17,4 +17,5 @@ end
 
 def printer(array)
         array.each{|line| puts "#{line}"}
+        binding.pry
 end
