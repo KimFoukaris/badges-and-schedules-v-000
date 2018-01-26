@@ -1,11 +1,11 @@
-require 'pry'
-
 def badge_maker(name)
   message = "Hello, my name is #{name}."
 end
 
 def batch_badge_creator(names)
-  names.collect{|name| "Hello, my name is #{name}." }
+  badges = []
+  names.collect{|name| badges << "Hello, my name is #{name}." }
+  printer(badges)
 end
 
 def assign_rooms(names)
@@ -16,6 +16,5 @@ def assign_rooms(names)
 end
 
 def printer(array)
-  binding.pry
   array.each{|line| puts "#{line}"}
 end
