@@ -14,5 +14,5 @@ def assign_rooms(names)
 end
 
 def printer(array)
-  array.each{|line| puts line}
+        array.each{|line| puts "#{line}"}
 end
