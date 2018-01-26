@@ -3,8 +3,9 @@ def badge_maker(name)
 end
 
 def batch_badge_creator(names)
-  names.collect{|name| "Hello, my name is #{name}." }
-  printer(names)
+  badges = []
+  names.collect{|name| badges << "Hello, my name is #{name}." }
+  printer(badges)
 end
 
 def assign_rooms(names)
