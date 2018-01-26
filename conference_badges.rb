@@ -14,5 +14,6 @@ def assign_rooms(names)
 end
 
 def printer
-  puts
+  puts welcome
+  puts rooms
 end
